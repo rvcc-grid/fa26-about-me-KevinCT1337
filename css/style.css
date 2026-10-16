@@ -9,6 +9,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Huninn", sans-serif;
     font-size: 35pt;
+    text-align: center;
 }
 
 header {
@@ -29,4 +30,9 @@ header {
 
 #bio {
     text-align: center;
+}
+
+#hobbies ul li {
+    color: #000A62;
+    font-style: italic;
 }
