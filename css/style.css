@@ -49,8 +49,9 @@ header {
 
 #gallery {
     border: 10px solid #334368;
-    font-style: italic;
+    margin-bottom: 2rem;
 }
+
 
 #gallery img {
     max-width: 100%;
@@ -58,4 +59,36 @@ header {
 
 #gallery figure {
     text-align: center;
+}
+
+#gallery figcaption {
+    font-style: italic;
+}
+
+
+/* Article section */
+
+#lit {
+    border: 10px solid #334368;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+    clear: both;
+}
+
+#lit div p:first-child:first-letter {
+    font-family: "MonteCarlo", cursive;
+    font-weight: bold;
+    float: left;
+    font-size: 3em;
+    padding: .25em;
+    margin-right: .25em;
 }
