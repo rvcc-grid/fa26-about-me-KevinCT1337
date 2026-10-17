@@ -16,6 +16,8 @@ header {
     text-align: center;
 }
 
+/* Hero section */
+
 #hero, footer {
     color: #73B2D7;
     border: 2px solid #73B2D7;
@@ -28,11 +30,32 @@ header {
     width: 300px;
 }
 
+/* Bio section */
+
 #bio {
     text-align: center;
 }
 
+
+/* Hobbies section */
+
 #hobbies ul li {
     color: #000A62;
     font-style: italic;
+}
+
+
+/* Gallery section */
+
+#gallery {
+    border: 10px solid #334368;
+    font-style: italic;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align: center;
 }
