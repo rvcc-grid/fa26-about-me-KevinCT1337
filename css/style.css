@@ -106,14 +106,15 @@ header {
 
 /* Youtube video section */
 
-.video-container {
+.myVideoFigure{
     max-width: 560px;
     margin: 0 auto;
 }
 
 .myVideoFigure figcaption {
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-style: italic;
 }
 
@@ -133,12 +134,12 @@ header {
 /* Tablet size */
 @media screen and (min-width: 60em){
 
-    figure {
+    #gallery figure {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
 
-    figcaption {
+    #gallery figcaption {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -146,7 +147,7 @@ header {
         margin-left: 1rem;
     }
 
-    figure img {
+    #gallery figure img {
         width: 100%;
     }
 
@@ -176,7 +177,7 @@ header {
     }
 
 
-    figure {
+    #gallery figure {
         display: block;
     }
 
