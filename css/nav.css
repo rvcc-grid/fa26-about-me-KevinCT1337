@@ -30,8 +30,9 @@ main {
     color: whitesmoke;
     display: flex;
     flex-direction: column;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 /* logo */
@@ -89,3 +90,17 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width: 60rem) {
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
