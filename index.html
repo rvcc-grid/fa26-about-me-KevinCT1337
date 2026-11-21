@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Huninn&family=MonteCarlo&family=Varela&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Huninn&family=MonteCarlo&family=Varela&display=swap"
+        rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet">
 
@@ -73,14 +74,15 @@
 
                 <p><a href="https://github.com/KevinCT1337">My Github Profile</a></p>
 
-                <p><a href="https://github.com/rvcc-grid/fa26-about-me-KevinCT1337">Link to this website's repository</a></p>
+                <p><a href="https://github.com/rvcc-grid/fa26-about-me-KevinCT1337">Link to this website's
+                        repository</a></p>
             </div>
 
         </section>
 
 
         <section id="hobbies">
-            
+
             <h2>Hobbies:</h2>
 
             <ul>
@@ -132,11 +134,20 @@
 
             <div>
 
-                <p>Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw. How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway.</p>
+                <p>Alice opened the door and found that it led into a small passage, not much larger than a rat-hole:
+                    she knelt down and looked along the passage into the loveliest garden you ever saw. How she longed
+                    to get out of that dark hall, and wander about among those beds of bright flowers and those cool
+                    fountains, but she could not even get her head through the doorway.</p>
 
-                <p>The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well. Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next.</p>
+                <p>The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so
+                    suddenly that Alice had not a moment to think about stopping herself before she found herself
+                    falling down a very deep well. Either the well was very deep, or she fell very slowly, for she had
+                    plenty of time as she went down to look about her and to wonder what was going to happen next.</p>
 
-                <p>So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.</p>
+                <p>So she was considering in her own mind (as well as she could, for the hot day made her feel very
+                    sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of
+                    getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.
+                </p>
 
             </div>
 
@@ -149,9 +160,11 @@
 
             <figure class="myVideoFigure">
 
-                <iframe id="myVideo" width="560" height="315" 
-                src="https://www.youtube.com/embed/euE1OOk-3eA?si=0xCfN-O-lDLkGt61" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe id="myVideo" width="560" height="315"
+                    src="https://www.youtube.com/embed/euE1OOk-3eA?si=0xCfN-O-lDLkGt61" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                 <figcaption>
                     A short video describing my midterm assignment and design choices.
@@ -162,7 +175,57 @@
         </section>
 
 
+        <section id="contact">
+            <h2>Contact Me!</h2>
 
+            <form method="POST" action="https://api.web3forms.com/submit">
+                <input type="hidden" name="access_key" value="b11128ef-2c26-4e18-8b7d-d89470806a0e">
+                <input type="hidden" name="subject" value="New message from my About Me page">
+                <input type="hidden" name="redirect" value="https://rvcc-grid.github.io/fa26-about-me-KevinCT1337/thanks.html">
+
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+
+                    <label for="phone-type">Phone Type:</label>
+                    <select id="phone-type" name="phone-type">
+                        <option value="">Select Phone Type</option>
+                        <option value="mobile">Mobile</option>
+                        <option value="home">Home</option>
+                        <option value="work">Work</option>
+                    </select>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+
+                    <p>Would you like a follow-up?</p>
+
+                    <ul>
+                        <li>
+                            <input type="radio" id="followup-yes" name="followup" value="yes">
+                            <label for="followup-yes">Yes</label>
+                        </li>
+
+                        <li>
+                            <input type="radio" id="followup-no" name="followup" value="no">
+                            <label for="followup-no">No</label>
+                        </li>
+                    </ul>
+
+                    <div data-class="h-captcha" data-captcha="true"></div>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
 
     </main>
 
@@ -173,6 +236,7 @@
 
     </footer>
 
+    <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 
 </html>

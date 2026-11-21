@@ -41,6 +41,19 @@ header {
 }
 
 
+/* Thank you page */
+
+#thanks {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+#thanks a {
+    color: #000A62;
+    font-weight: bold;
+}
+
+
 /* Hobbies section */
 
 #hobbies {
