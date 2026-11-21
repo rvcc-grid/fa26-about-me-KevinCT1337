@@ -115,6 +115,7 @@ header {
 #lit {
     border: 10px solid #334368;
     margin-bottom: 2rem;
+    background-color: #cadcfd;
 }
 
 #lit div {
